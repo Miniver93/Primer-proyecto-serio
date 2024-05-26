@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Open Sans';
+}
+.header{
+    background-color: var(--primary-bg-color);
+}
+.about_me{
+    background-color: var(--secondary-bg-color);
+}
+.sponsors{
+    background-color: var(--gray-color);
+}
+.projects{
+    background-color: var(--secondary-bg-color);
+}
+.opinions{
+    background-color: var(--gray-color);
+}
+.comment_form{
+    background-color: var(--primary-bg-color);
+}
+.footer_body{
+    background-color: var(--secondary-bg-color);
+}
