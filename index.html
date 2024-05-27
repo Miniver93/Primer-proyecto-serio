@@ -3,47 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IWMYWF</title>
+    <title>JoseDeveloper</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <nav class="navegation_bar">
+        <strong class="autor">JOSEDEV</strong>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About me</a></li>
+            <li><a href="/">Works</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a class="orange_btn_border" href="/">Get in Touch</a></li>
+        </ul>
+    </nav>
     <section class="header">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About me</a></li>
-                <li><a href="/">Works</a></li>
-                <li><a href="/">Blog</a></li>
-                <li><a href="/">Get in Touch</a></li>
-            </ul>
-        </nav>
         <div class="left">
             <h1>Create your website in <strong>less than 12days</strong></h1>
             <p>Hey, I’m Mark Essein. A fullstack web developer with 7 years experience building successful websites and applications. I can build a high converting website for you as quick as possible!</p>
-            <a class="btn_primary" href="/">Get in Touch</a>
+            <a class="orange_btn" class="btn_primary" href="/">Get in Touch</a>
         </div>
         <div class="right">
-            <img src="" alt="Man_image">
+            <img src="./assets/images/header/Man_image-removebg-preview.png" alt="Man_image">
         </div>
     </section>
     <section class="about_me">
-        <div class="left">
-            <ul>
-                <li><img class="languages" src="" alt="html_img"></li>
-                <li><img class="languages" src="" alt="react_img"></li>
-                <li><img class="languages" src="" alt="css_img"></li>
-                <li><img class="languages" src="" alt="vue_img"></li>
-                <li><img class="languages" src="" alt="javascript_img"></li>
-            </ul>
-        </div>
-        <div class="right">
-            <h2>About me</h2>
-            <p>My passion for building websites started since 2013 and since then i have helped companies around the world build amazing websites and products that create real value for the business and users.
-
-                I enjoy solving problems with clean scalable solutions and I also have a genuine passion for inspiring design.
-                
-                I am a fullstack developer focusing on core frontend and backend technologies which include HTML, CSS, Javascript, React and other core languages
-                </p>
+        <div class="about_me_box">
+            <div class="languages">
+                <ul>
+                    <li><img class="languages_img" src="" alt="html_img"></li>
+                    <li><img class="languages_img" src="" alt="react_img"></li>
+                    <li><img class="languages_img" src="" alt="css_img"></li>
+                    <li><img class="languages_img" src="" alt="vue_img"></li>
+                    <li><img class="languages_img" src="" alt="javascript_img"></li>
+                </ul>
+            </div>
+            <div class="about_me_info">
+                <h2>About Me</h2>
+                <div class="line"></div>
+                <p class="about_me_text">My passion for building websites started since 2013 and since then i have helped companies around the world build amazing websites and products that create real value for the business and users.
+    
+                    I enjoy solving problems with clean scalable solutions and I also have a genuine passion for inspiring design.
+                    
+                    I am a fullstack developer focusing on core frontend and backend technologies which include HTML, CSS, Javascript, React and other core languages
+                    </p>
+            </div>
         </div>
         <div class="sponsors">
             <h3>Companies I have worked for</h3>
@@ -101,7 +105,7 @@
             <input type="text" placeholder="Name">
             <input type="email" name="email" id="email" placeholder="Email Address">
             <textarea name="message" id="message" placeholder="Message description"></textarea>
-            <button type="submit">Send</button>
+            <button class="orange_btn" type="submit">Send</button>
         </form>
     </section>
     <footer class="footer_body">

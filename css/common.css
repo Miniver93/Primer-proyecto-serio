@@ -4,16 +4,46 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 body{
-    max-width: 1200px;
+    max-width: 1366px;
     margin: auto;
     font-family: 'Open Sans';
+    color: var(--secondary-color);
 }
-.header{
-    background-color: var(--primary-bg-color);
+
+body > *{
+    padding-left: 81px;
+    padding-right: 81px;
 }
-.about_me{
-    background-color: var(--secondary-bg-color);
+
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+p{
+    font-size: 1.125rem;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 > strong{
+    color: var(--primary-color);
+}
+
+h2{
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: normal;
 }
 .sponsors{
     background-color: var(--gray-color);

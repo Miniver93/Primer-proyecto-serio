@@ -1,0 +1,21 @@
+.about_me{
+    background-color: var(--secondary-bg-color);
+}
+
+.about_me_box{
+    padding: 78px 0px 78px 0px
+}
+
+.line{
+    border: solid 2px var(--primary-color);
+    margin: 16px 0px 16px 0px;
+}
+
+.about_me_text{
+    line-height: 130%;
+    font-size: 18px;
+}
+
+.sponsors{
+    padding: 48px 0 48px 0;
+}

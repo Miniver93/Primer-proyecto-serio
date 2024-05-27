@@ -1,0 +1,11 @@
+.orange_btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 12px 46px 12px 46px;
+    border: none;
+    width: fit-content;
+    line-height: 24px;
+    display: block;
+}
+
