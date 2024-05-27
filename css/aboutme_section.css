@@ -19,3 +19,18 @@
 .sponsors{
     padding: 48px 0 48px 0;
 }
+
+.man_image{
+    position: relative;
+    margin-top: 71px;
+}
+
+.elipse{
+    height: 273px;
+    width: 273px;
+    background-color: rgba(41, 50, 65, 0.37);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 45px;
+}

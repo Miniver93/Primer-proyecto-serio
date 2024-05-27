@@ -6,7 +6,6 @@
 }
 
 body{
-    max-width: 1366px;
     margin: auto;
     font-family: 'Open Sans';
     color: var(--secondary-color);

@@ -1,3 +1,19 @@
 .header{
     background-color: var(--primary-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    & .info_man{
+        margin-left: 80px;
+    }
+
+    & .create_website{
+        margin-bottom: 10px;
+    }
+
+    & .me{
+        margin-bottom: 20px;
+    }
 }
