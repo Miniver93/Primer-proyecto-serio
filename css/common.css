@@ -49,9 +49,7 @@ h2{
     line-height: 130%;
     font-weight: normal;
 }
-.sponsors{
-    background-color: var(--gray-color);
-}
+
 .projects{
     background-color: var(--secondary-bg-color);
 }

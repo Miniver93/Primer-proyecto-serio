@@ -1,0 +1,36 @@
+.sponsors{
+    background-color: var(--gray-color);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+
+    & .sponsor_imgs_box{
+        margin-top: 50px;
+        width: 881px;
+        height: 47px;
+        display: flex;
+        column-gap: 74px;
+    }
+
+    & .sponsor_imgs{
+        width: fit-content;
+        height: fit-content;
+        max-height: fit-content;
+        max-width: max-content;
+    }
+
+    & .sponsor_title{
+        margin-bottom: 20px;
+    }
+
+    & .line{
+        width: 132px;
+        height: 3px;
+        background-color: var(--primary-color);
+    }
+}
