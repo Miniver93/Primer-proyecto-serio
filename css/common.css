@@ -6,12 +6,17 @@
 }
 
 body{
-    margin: auto;
     font-family: 'Open Sans';
     color: var(--secondary-color);
+    background-color: #1d1f37;
 }
 
-body > *{
+main{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+main > *{
     padding-left: 81px;
     padding-right: 81px;
 }
