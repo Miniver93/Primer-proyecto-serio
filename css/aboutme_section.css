@@ -1,36 +1,81 @@
 .about_me{
     background-color: var(--secondary-bg-color);
+
+    & .about_me_box{
+        padding-top: 75px;
+        padding-bottom: 75px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    
+    & .line{
+        border: solid 2px var(--primary-color);
+        margin: 16px 0px 16px 0px;
+    }
+    
+    & .about_me_text{
+        line-height: 130%;
+        font-size: 18px;
+    }
+
+    & .languages{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 371px;
+        height: 308px;
+        max-width: 371px;
+        max-height: 308px;
+    }
+
+    & .elipse_languages{
+        border-radius: 50%;
+        align-content: center;
+        width: 82px;
+        height: 82px;
+    }
+
+    
+    & .elipse_html{
+        background-color: rgba(241, 101, 41, 0.38);
+    }
+    
+    & .elipse_react{
+        background-color: rgba(0, 216, 255, 0.38);
+        grid-row: 2;
+        grid-column: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    & .elipse_css{
+        background-color: rgba(38, 77, 228, 0.38);
+        grid-row: 1;
+        grid-column: 3;
+        justify-self: end;
+        align-self: flex-end;
+    }
+
+    & .elipse_vue{
+        background-color: rgba(77, 186, 135, 0.38);
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    & .elipse_js{
+        background-color: rgba(241, 191, 38, 0.37);
+        grid-row: 3;
+        grid-column: 3;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
+    & .languages_img{
+        margin: auto;
+    }
 }
 
-.about_me_box{
-    padding: 78px 0px 78px 0px
-}
 
-.line{
-    border: solid 2px var(--primary-color);
-    margin: 16px 0px 16px 0px;
-}
 
-.about_me_text{
-    line-height: 130%;
-    font-size: 18px;
-}
-
-.sponsors{
-    padding: 48px 0 48px 0;
-}
-
-.man_image{
-    position: relative;
-    margin-top: 71px;
-}
-
-.elipse{
-    height: 273px;
-    width: 273px;
-    background-color: rgba(41, 50, 65, 0.37);
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 25px;
-    margin-top: 45px;
-}
